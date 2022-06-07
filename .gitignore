@@ -1,5 +1,6 @@
 #web3
 build/
+artifacts/
 
 # Logs
 logs

@@ -1,11 +1,12 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.5.16+commit.9c3226ce"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
+				"constant": false,
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -21,10 +22,12 @@
 						"type": "uint256"
 					}
 				],
+				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
+				"constant": true,
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -40,10 +43,12 @@
 						"type": "address"
 					}
 				],
+				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
+				"constant": true,
 				"inputs": [],
 				"name": "getAdopters",
 				"outputs": [
@@ -53,30 +58,24 @@
 						"type": "address[16]"
 					}
 				],
+				"payable": false,
 				"stateMutability": "view",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"contracts/Adoption.sol": "Adoption"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
-		"metadata": {
-			"bytecodeHash": "ipfs"
-		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -85,10 +84,10 @@
 	},
 	"sources": {
 		"contracts/Adoption.sol": {
-			"keccak256": "0x7cdec7c95cbd8e715d9ad84ffccc9990d12bc3299ad621d77a52e14ffc351455",
+			"keccak256": "0x962272deed79cf7888fd0882177002522a9dbe438e0fa48e05c0675cad3dc941",
 			"urls": [
-				"bzz-raw://373b03dc674f601765e3e25b7a4513669caa2fe94c5585e0b4f708326f3f4d2d",
-				"dweb:/ipfs/QmchmbikFbLjzvyMMTGX5mbCJMQDMo5auBkjq7x435b1fX"
+				"bzz-raw://913f52ef23017c74a63fbaee5b504d89a198a7cda96653baa62b5a2f0d153a53",
+				"dweb:/ipfs/QmUMBke9yxRSsa65nNnbjuqSMUTGgjZtX2W9hUp2qkyuUz"
 			]
 		}
 	},
